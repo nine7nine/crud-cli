@@ -1,0 +1,18 @@
+# build artifacts (produced by `make`)
+/crud-cli
+/crud-cli-asan
+/spikes/p1_perm
+*.o
+
+# large local directories, not part of this project
+/claude-desktop/
+
+# machine-local settings
+/.claude/settings.local.json
+
+# session exports written by /export
+/crud-export-*.md
+
+# keep the repo source-only: README is the only tracked markdown
+/*.md
+!/README.md
